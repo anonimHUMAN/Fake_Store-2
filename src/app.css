@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://thumbs.dreamstime.com/b/fake-shop-inscription-red-keyboard-key-written-metallic-finger-pressing-186104849.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+.btns {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.btns input {
+    width: 40%;
+    padding: 10px;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 20px;
+}
+
+.btn {
+    color: white;
+    background-color: rgba(0, 0, 255, 0.679);
+}
+
+.btn1 {
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: black;
+    background-color: blue;
+}
+
+.btn:focus {
+    color: red;
+    background-color: beige;
+    border: 1px solid black;
+}
+
+.container {
+    width: 83.3%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.container .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container .cards .card {
+    width: 27%;
+    padding: 14px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    -webkit-box-shadow: 23px 25px 8px 0px rgba(34, 60, 80, 0.721);
+    -moz-box-shadow: 23px 25px 8px 0px rgba(34, 60, 80, 0.721);
+    box-shadow: 23px 25px 8px 0px rgba(34, 60, 80, 0.566);
+}
+
+.container .cards .card img {
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.container .cards .card h1 {
+    font-style: italic;
+    font-size: 25px;
+}
+
+.container .cards .card p {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.container .cards .card .price h2 {
+    font-size: 21px;
+    color: blueviolet;
+}
+
+
+.container .cards .card .price span {
+    font-size: 17px;
+    color: red;
+}
